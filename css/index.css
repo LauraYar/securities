@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7f7f7;
+}
+
+.container {
+  width: 1180px;
+  height: 1720px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* <!-- 左边内容start --> */
+.container-l {
+  width: 780px;
+}
+
+.header {
+  position: relative;
+  width: 780px;
+  height: 180px;
+  background: #ffffff;
+  margin-bottom: 20px;
+}
+.header-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 780px;
+  height: 88px;
+  background: url(../images/banner-cailianshe.png) no-repeat;
+  /* background-size: 780px 88px;
+padding:65px 0 20px 37px; */
+}
+
+.logo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 65px;
+  left: 37px;
+  width: 90px;
+  height: 90px;
+  background: #f7f7f7;
+  border: 4px solid #ffffff;
+  border-radius: 44px;
+}
+
+.c {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d9021c;
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 5px;
+}
+
+.logo span {
+  font-weight: 800;
+}
+
+.title {
+  position: absolute;
+  top: 104px;
+  left: 150px;
+}
+
+.title span {
+  display: flex;
+  margin-bottom: 2px;
+  align-items: center;
+}
+.title span h3 {
+  margin-right: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+}
+.title p {
+  width: 338px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+  line-height: 20px;
+}
+
+.content {
+  padding: 0px 20px;
+  background: #ffffff;
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 24px 0;
+}
+
+.img img {
+  width: 173px;
+  height: 116px;
+}
+
+.content-text h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 42px;
+}
+
+.content-text h3:hover {
+  color: #fd263f;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.content-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.datum {
+  display: flex;
+}
+.cailianshe {
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7;
+  padding: 4px 6px;
+  border-radius: 5px;
+}
+
+.data-increase {
+  width: 16px;
+  height: 16px;
+  background: url(../images/up_trend.png) no-repeat;
+  margin-right: 6px;
+}
+
+.data h4 {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.data .num {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fd263f;
+}
+
+.datum span {
+  color: #e5e5e5;
+  margin: 0 12px;
+  padding: 4px 0;
+}
+
+.keywords {
+  display: flex;
+  align-items: center;
+}
+.keywords span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.tag-item {
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  margin-left: 6px;
+}
+
+.tag-item span {
+  margin-left: 8px;
+}
+
+.cailianshe h5,
+.time {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.cailianshe span {
+  color: #e5e5e5;
+  margin: 0 10px;
+  padding: 4px 0;
+}
+
+.content-box p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+  line-height: 24px;
+  margin-top: -30px;
+}
+.pic {
+  display: flex;
+  justify-content: space-around;
+}
+.pic img {
+  width: 173px;
+  height: 116px;
+  margin: 20px 0;
+}
+/*  <!-- 右边推荐主题start --> */
+.container-r {
+  width: 380px;
+}
+
+.rem-topic,
+.hot-article {
+  background: #ffffff;
+}
+.container-r dl dt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 13px 20px;
+}
+
+.container-r dl dt h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.view-all {
+  display: flex;
+  align-items: center;
+}
+
+.view-all h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+  margin-right: 8px;
+}
+
+.container-r dd {
+  padding: 24px 0px;
+  margin: 0 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.container-r dd:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+  box-shadow: #999999;
+  background: white;
+}
+
+.dd-content {
+  display: flex;
+  align-items: center;
+}
+
+.dd-content img {
+  width: 60px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.dd-content span h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 4px;
+}
+.dd-content span p {
+  width: 268px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hot-article {
+  margin: 24px 0;
+}
+
+.hot-article dd {
+  padding: 24px 20px;
+}
+
+.hot-article dd h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 12px;
+}
