@@ -107,6 +107,14 @@ padding:65px 0 20px 37px; */
   padding: 24px 0;
 }
 
+.content-box-5{
+  border-bottom: 1px solid #e5e5e5;
+  padding: 24px 0; 
+}
+
+.content-box-5 h3{
+  margin-bottom: 12px;
+}
 .img img {
   width: 173px;
   height: 116px;
@@ -115,14 +123,16 @@ padding:65px 0 20px 37px; */
 .content-text h3 {
   font-size: 18px;
   font-weight: 600;
+  line-height: 25px;
   color: #333333;
   margin-bottom: 42px;
 }
 
 .content-text h3:hover {
+  cursor: pointer;
   color: #fd263f;
   text-decoration: underline;
-  cursor: pointer;
+  text-underline-offset: 4px;
 }
 .content-nav {
   display: flex;
@@ -216,14 +226,16 @@ padding:65px 0 20px 37px; */
   line-height: 24px;
   margin-top: -30px;
 }
-.pic {
+.content-box .pic {
+  width: 740px;
   display: flex;
   justify-content: space-around;
+
 }
-.pic img {
+.content-box .pic img {
   width: 173px;
   height: 116px;
-  margin: 20px 0;
+  margin: 20px 0 ;
 }
 /*  <!-- 右边推荐主题start --> */
 .container-r {
